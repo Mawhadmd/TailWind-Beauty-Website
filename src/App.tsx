@@ -1,6 +1,7 @@
 import BestSellingItems from "./BestSellingItems";
 import { Header } from "./Header";
 import { Hero } from "./Hero";
+import OurBrandsSlider from "./OurBrandsSlider";
 
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Header />
       <Hero />
       <BestSellingItems/>
+      <OurBrandsSlider/>
     </>
   );
 }

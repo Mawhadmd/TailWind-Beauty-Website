@@ -7,3 +7,30 @@
   font-family: sa;
   box-sizing: border-box;
 }
+#slider{
+  position: relative;
+
+}
+
+#slider::after{
+  content: '';
+  z-index: 44;
+  position: absolute;
+  right: 0;
+  width: 10%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.062);
+
+}
+
+#slider::before{
+  content: '';
+  z-index: 44;
+  position: absolute;
+  left: 0;
+  width: 10%;
+  height: 100%;
+  backdrop-filter: blur(3px);
+  background-color: rgba(255, 255, 255, 0.062);
+}
