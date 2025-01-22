@@ -5,7 +5,12 @@ export default {
     "/index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors:{
+        SecondaryColor: "rgb(var(--SecondaryColor))",
+PrimaryColor: "rgb(var(--PrimaryColor))"
+      }
+    },
   },
   plugins: [],
 }
