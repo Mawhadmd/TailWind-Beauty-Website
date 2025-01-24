@@ -6,9 +6,13 @@ export default {
   ],
   theme: {
     extend: {
+      fontSize:{
+        "header": "3.5rem"
+      },
       colors:{
         SecondaryColor: "rgb(var(--SecondaryColor))",
-PrimaryColor: "rgb(var(--PrimaryColor))"
+PrimaryColor: "rgb(var(--PrimaryColor))",
+defaultImageColor: "rgb(var(--defaultImageColor))",
       }
     },
   },

@@ -5,6 +5,7 @@
 :root {
   --SecondaryColor : 142, 142, 142;
   --PrimaryColor : 209, 185, 216;
+  --defaultImageColor : 244, 246, 244;
   /* color-scheme: light dark; */
   font-family: serif  ;
   box-sizing: border-box;

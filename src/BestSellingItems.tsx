@@ -10,7 +10,7 @@ export const BestSellingItems = () => {
     return (
         <section className="h-[600px] my-5 flex flex-col items-center">
         <header className="text-center">
-          <p className="text-3xl ">Best Selling Products</p>
+          <p className="text-header ">Best Selling Products</p>
           <small className="text-SecondaryColor">
             Easiest way to amazing life by buying your favorite products{" "}
           </small>
@@ -19,7 +19,7 @@ export const BestSellingItems = () => {
        <div className="flex gap-12 w-[950px]">
        {topselling.map((item)=> 
         <div className="flex flex-col items-center flex-1 ">
-          <div className="content-center w-full rounded-3xl h-[400px] bg-[#f4f6f4]">
+          <div className="content-center w-full rounded-3xl h-[400px] bg-defaultImageColor">
             <img className=' mx-auto  size-32' src={item.image} alt="IMG" />
           </div>
           <div>
