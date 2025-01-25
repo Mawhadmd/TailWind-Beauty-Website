@@ -1,6 +1,6 @@
 
-import { PinkButton } from './PinkButton';
-import image from './assets/image.png';
+import { PinkButton } from '../Components/PinkButton';
+import image from '../assets/image.png';
 export const BestSellingItems = () => {
       const topselling = [
         {image: image, title: 'COSMALINE HAIR AND BODY MISTSENSUAL DREAM SPLASH 125ml'},

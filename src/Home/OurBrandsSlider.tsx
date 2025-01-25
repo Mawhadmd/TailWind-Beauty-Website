@@ -2,7 +2,7 @@
 
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide, } from "swiper/react";
-import image from './assets/image.png';
+import image from '../assets/image.png';
 const OurBrandsSlider = () => {
 
 var brands = [

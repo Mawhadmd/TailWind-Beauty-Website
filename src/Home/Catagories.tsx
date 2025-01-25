@@ -1,7 +1,7 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import image from "./assets/Image.png";
+import image from "../assets/Image.png";
 import { Autoplay, Navigation } from "swiper/modules";
-import { PinkButton } from "./PinkButton";
+import { PinkButton } from "../Components/PinkButton";
 const Catagories = () => {
   const Catagories = [
     { image: image },

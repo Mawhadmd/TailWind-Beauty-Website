@@ -1,4 +1,4 @@
-import image from './assets/image.png';
+import image from '../assets/image.png';
 export const Hero = () => {
     return (
       <main className="flex gap-32 justify-center  p-10 mt-2 bg-PrimaryColor w-full ">

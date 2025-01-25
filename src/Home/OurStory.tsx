@@ -1,6 +1,6 @@
 import React from 'react';
-import image from './assets/Image.png'
-import { PinkButton } from './PinkButton';
+import image from '../assets/Image.png'
+import { PinkButton } from '../Components/PinkButton';
 const OurStory = () => {
     return (
         <section className='mt-5'>

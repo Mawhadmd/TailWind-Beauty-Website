@@ -1,5 +1,5 @@
 import React from 'react';
-import phone from './assets/phone.png';
+import phone from '../assets/phone.png';
 const footerLinks = [
     { name: 'Hair Care', url: '#' },
     { name: 'Hair Styling', url: '#' },

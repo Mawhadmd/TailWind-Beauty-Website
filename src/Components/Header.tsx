@@ -1,6 +1,6 @@
-import SearchImage from "./assets/search_3691570.png";
-import ShoppingCartImage from "./assets/shopping-cart_5254037.png";
-import ThreeLinesIMG from "./assets/three-lines_8385288.png";
+import SearchImage from "../assets/search_3691570.png";
+import ShoppingCartImage from "../assets/shopping-cart_5254037.png";
+import ThreeLinesIMG from "../assets/three-lines_8385288.png";
 export const Header = () => {
     const menuItems = ["Home", "Products", "Contacts"];
     const images = [
